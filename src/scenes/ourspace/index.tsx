@@ -6,8 +6,6 @@ import img4 from "@/assets/yoga.jpg";
 import HText from "@/shared/HText";
 import { SelectedPage } from "@/shared/types";
 import { motion } from "framer-motion";
-import { ClassType } from "react";
-import Class from "./Class";
 
 const classes: Array<any> = [
   {

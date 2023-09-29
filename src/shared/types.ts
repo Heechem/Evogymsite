@@ -11,8 +11,8 @@ export interface PrestationsType {
   description: string;
 }
 
-export interface ClassType {
-  name: string;
-  description?: string;
-  image: string;
-}
+// export interface ClassType {
+//   name: string;
+//   description?: string;
+//   image: string;
+// }
