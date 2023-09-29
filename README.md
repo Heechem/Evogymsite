@@ -1,4 +1,20 @@
-# React + TypeScript + Vite
+# EVOGYM Werbsite CLONE
+
+https://evogym-clone.netlify.app/
+
+This is a clone of a website that I found on youtube called Evogym 
+
+
+![image](https://github.com/Heechem/Evogymsite/assets/117024247/ba01e3cf-61eb-42ce-87e7-15b424205db0)
+
+
+
+
+
+
+
+
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
