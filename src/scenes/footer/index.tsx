@@ -1,7 +1,5 @@
 import Logo from "@/assets/Logo.png";
 
-type Props = {};
-
 const Footer = () => {
   return (
     <footer className="bg-sky-100 py-8">

@@ -1,16 +1,15 @@
-import { SelectedPage } from "@/shared/types";
-import Img1 from "@/assets/img1.jpeg";
-import img2 from "@/assets/img2.jpeg";
-import img3 from "@/assets/img3.jpeg";
-import img4 from "@/assets/yoga.jpg";
-import img6 from "@/assets/img6.jpeg";
 import img5 from "@/assets/image5.png";
-import { motion } from "framer-motion";
+import Img1 from "@/assets/img1.jpeg";
+import img3 from "@/assets/img3.jpeg";
+import img6 from "@/assets/img6.jpeg";
+import img4 from "@/assets/yoga.jpg";
 import HText from "@/shared/HText";
+import { SelectedPage } from "@/shared/types";
+import { motion } from "framer-motion";
 import { ClassType } from "react";
 import Class from "./Class";
 
-const classes: Array<ClassType> = [
+const classes: Array<any> = [
   {
     name: "Weight Training Classes",
     description:
@@ -76,7 +75,7 @@ const Ourspace = ({ setSelectedPage }: Props) => {
         </motion.div>
         <div className="mt-10 h-[353px] w-full overflow-x-auto overflow-y-hidden">
           <ul className="w-[2000px] whitespace-nowrap">
-            {classes.map((item: ClassType, index) => (
+            {classes.map((item, index) => (
               <Class
                 key={`${item.name}-${index}`}
                 name={item.name}
